@@ -37,10 +37,15 @@ cmd: code .
 demo/
 ├── demo/
 │   ├── __init__.py     → Tells Python this folder is special (a "package")
+
 │   ├── settings.py     → Where all the important settings (like the database) are stored
+
 │   ├── urls.py         → Decides which web pages users can visit
+
 │   ├── asgi.py         → Used for advanced server setups (not often needed)
+
 │   └── wsgi.py         → Used when you want to put your project online (on a server)
+
 ├── manage.py           → The main tool to run your project and perform tasks
 
 
