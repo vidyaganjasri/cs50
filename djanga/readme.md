@@ -35,7 +35,9 @@ cmd: code .
 ## structures:
 
 demo/
+
 ├── demo/
+
 │   ├── __init__.py     → Tells Python this folder is special (a "package")
 
 │   ├── settings.py     → Where all the important settings (like the database) are stored
