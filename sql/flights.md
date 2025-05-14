@@ -69,3 +69,20 @@ id  origin    destination  duration
 3   Istanbul  Tokyo        700
 4   New York  Paris        435
 5   Moscow    Paris        245
+
+we are looking for a row where a particular col val has some no of char maybe 0 or maybe more followed by a and then other no of characters
+sqlite> SELECT * FROM flights WHERE origin LIKE '%a%';
+id  origin    destination  duration
+--  --------  -----------  --------
+2   Shangai   Paris        760
+3   Istanbul  Tokyo        700
+6   Lima      New York     455
+
+also have built-in functions
+1.average
+2.count
+3.max
+4.min
+5.sum
+
+
