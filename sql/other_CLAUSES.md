@@ -1,6 +1,7 @@
 # LIMIT
 to give us the top rows/ not every row frmo the db 
 sqlite> SELECT * FROM flights;
+
 id  origin    destination  duration
 --  --------  -----------  --------
 1   New York  london       430
